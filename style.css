@@ -1,0 +1,316 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+body{
+    position: relative;
+}
+
+.jumbo{
+
+font-family: cursive;
+font-size: 25px;
+}
+
+.navbar{
+    font-size: 25px !important;
+    background-color:black !important;
+    align-items: right;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.sec{
+    background-image: url(./assets/axel-bobert-TuplP0IQvw4-unsplash.jpg);
+    height: 600px;
+    background-size: cover;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position-y: -100px;
+}
+
+
+#welcome{
+    color: white;
+    /* padding-top: 10px; */
+    position: absolute;
+    font-size: 4em;
+    font-family: cursive;
+    height: 250px;
+}
+
+
+.sec p{ 
+    text-align: center;
+    max-width: 60%;
+    color:white;
+    margin-top:20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+/* #btn1{
+    margin-top: 0px;
+    border-radius: 40px;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+} */
+
+.third{
+    background-color: white;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.d-block {
+    width:50%;
+    max-height: 400px;
+}
+
+#contact {
+    background: #f1f1f1;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /*check later*/
+    flex-direction: column;
+    font-family: cursive;
+    padding-top: 20px;
+    margin-top: 0%;
+    padding-bottom: 50px;
+   
+}
+
+h3 {
+    font-size: 50px;
+    font-family: cursive;
+
+}
+.cards {
+    background: #2f3542;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: 250px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.contact-info {
+    display: flex;
+    width:100%;
+    max-width:1200px;
+    align-items:center;
+    justify-content: space-around;
+    padding: 50px 20px;
+    
+}
+
+.card-icon {
+    font-size: 28px;
+    background: #ff6348;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3 s linear;
+}
+
+.cards:hover .card-icon {
+     background: none;
+     color: #ff6348;
+     transform: scale(1.6);
+}
+
+.cards p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.cards:hover p {
+    max-height: 40px;
+    opacity: 1;
+}
+
+@media screen and (max-width:800px){
+    .contact-info {
+        flex-direction: column;
+    }
+    .cards {
+        width: 100px;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+/*------------------------ABOUT ME-------------------------*/
+
+.about-me {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    width:100%;
+    text-align: center;
+    height: 600px;
+    
+}
+
+h2 {
+    font-family: cursive;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    font-size: 3em;
+
+}
+
+.about-me .col-left, .about-me .col-right {
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.about-me .col-left img {
+    max-width: 100%;
+}
+
+.col-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 40%;
+    font-family: cursive;
+        
+}
+
+h4 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-family: cursive;
+}
+
+
+
+.about-me a{
+    margin-top: 10px;
+    background-color: black;
+    padding:10px;
+    border-radius: 25px;
+    min-width: 25%;
+    color: white;
+}
+/********************* MY SKILLS******************************************/
+.my-skills {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width:100%;
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h4 {
+    padding-top:20px;
+}
+
+/* .my-skills::after {
+    content: '';
+    display: block;
+    clear: both;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}*/
+
+.my-skills .skills-left , .my-skills .skills-middle , .my-skills .skills-right {
+    width: 33.333333%;
+    /* display: inline-block;
+    float: left; */
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+} 
+
+.skill-set {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+.abc {
+    margin-top: 50px;
+   margin-bottom: 100px;
+}
+
+.my-skills i {
+    color: #ff6348;
+    font-size: 60px;
+}
+
+@media screen and (max-width:800px){
+    .skill-set {
+        flex-direction: column;
+    }
+    .skills-left,.skills-middle,.skills-right {
+        width: 100px;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
+
+/*---------------------------- HOBBIES AND INTERESTS---------------------*/
+
+.hobbies {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top:100px;
+    padding-bottom: 150px; 
+    background-color:lightgray;
+}
+
+.pics {
+    min-width:100%;
+    height:70%;
+}
+
+.carousel {
+    width:440px;
+    height:360px;
+  }
+
