@@ -24,6 +24,10 @@ font-size: 25px;
 }
 
 
+.jumbotron {
+    padding: 0;
+}
+
 .sec{
     background-image: url(./assets/axel-bobert-TuplP0IQvw4-unsplash.jpg);
     height: 600px;
